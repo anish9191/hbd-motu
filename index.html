@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday My Love 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="decorations"></div>
+
+  <!-- 1 -->
+  <div class="screen active" id="screen1">
+    <h1>🎉 Happy Birthday, My Love 💕</h1>
+    <p>Today is your special day — the day my world became brighter because of you. 💖</p>
+    <button onclick="nextScreen(2)">Next ➜</button>
+  </div>
+
+  <!-- 2 -->
+  <div class="screen" id="screen2">
+    <h1>💫 Our Beautiful Memories 💫</h1>
+    <div id="slideshow"></div>
+    <button onclick="nextScreen(3)">Next ➜</button>
+  </div>
+
+  <!-- 3 -->
+  <div class="screen" id="screen3">
+    <h1>❤️ My Love for You ❤️</h1>
+    <p>You are my sunshine on rainy days, my peace in chaos, and my everything forever.</p>
+    <button onclick="nextScreen(4)">Next ➜</button>
+  </div>
+
+  <!-- 4 -->
+  <div class="screen" id="screen4">
+    <h1 class="glow-text">🎂 Wishing You the Happiest Birthday 🎂</h1>
+    <p>May your heart be full of joy, your smile shine brighter than ever, and your dreams come true. 🌷</p>
+    <button onclick="nextScreen(5)">Next ➜</button>
+  </div>
+
+  <!-- 5 -->
+  <div class="screen" id="screen5">
+    <h1>💖 I Love You Forever 💖</h1>
+    <p>Thank you for being my reason to smile every single day. You are my world. 🌍</p>
+  </div>
+
+  <!-- 6 -->
+  <div class="screen" id="screen6">
+    <h1>🎬 A Special wish from me to You 💞</h1>
+    <video id="videoPlayer" controls></video>
+  </div>
+
+  <!-- 7 -->
+  <div class="screen fullscreen" id="screen7">
+    <video id="longVideo" autoplay controls></video>
+  </div>
+
+  <!-- Background Music -->
+  <audio id="bgMusic" autoplay loop muted></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
